@@ -22,6 +22,17 @@ body {
 	background-color: #000000;
 }
 
+.slider-block {
+	.slide {
+		outline: none;
+	}
+	img {
+		display: block;
+		width: 100%;
+		height: 178px;
+	}
+}
+
 .navbar-right {
 	button {
 		background-color: transparent;
@@ -419,7 +430,7 @@ body {
 @media screen and (max-width: 768px) {
 	.navbar-right {
 		button {
-			padding: 15px 20px 15px 20px;
+			padding: 15px 15px 15px 15px;
 		}
 	}
 	.navbar-default {
@@ -515,6 +526,11 @@ body {
 			height: 40px;
 		}
 	}
+	.slider-block {
+		img {
+    		height: 164px;
+    	}
+	}
 }
 
 @media screen and (max-width: 480px) {
@@ -561,7 +577,7 @@ body {
 		}
 		.link {
 			height: 43px;
-			width: 60%;
+			width: 80%;
 			margin: 0 auto;
 		}
     }

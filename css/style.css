@@ -22,6 +22,16 @@ body {
   background-color: #000000;
 }
 
+.slider-block .slide {
+  outline: none;
+}
+
+.slider-block img {
+  display: block;
+  width: 100%;
+  height: 178px;
+}
+
 .navbar-right button {
   background-color: transparent;
   color: #ffffff;
@@ -438,7 +448,7 @@ body {
 
 @media screen and (max-width: 768px) {
   .navbar-right button {
-    padding: 15px 20px 15px 20px;
+    padding: 15px 15px 15px 15px;
   }
   .navbar-default .navbar-collapse li a {
     padding: 15px 10px;
@@ -520,6 +530,9 @@ body {
     width: auto;
     height: 40px;
   }
+  .slider-block img {
+    height: 164px;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -559,7 +572,7 @@ body {
   }
   .main-footer .link {
     height: 43px;
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
   }
   .info {
