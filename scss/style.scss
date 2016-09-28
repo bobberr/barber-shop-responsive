@@ -417,6 +417,11 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+	.navbar-right {
+		button {
+			padding: 15px 20px 15px 20px;
+		}
+	}
 	.navbar-default {
 		.navbar-collapse {
 			li {
